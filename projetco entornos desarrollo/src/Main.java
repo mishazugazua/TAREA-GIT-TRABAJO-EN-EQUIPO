@@ -21,7 +21,7 @@ public class Main {
             descripciones[contador] = descripcion;
             fechasVencimiento[contador] = fechaVencimiento;
             contador++;
-            System.out.println("Tarea '" + titulo + "' registrada.");
+            System.out.println("TAREA '" + titulo + "' registrada.");
         } else {
             System.out.println("No se pueden registrar más tareas. Límite alcanzado.");
         }
