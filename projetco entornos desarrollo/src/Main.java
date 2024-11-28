@@ -11,12 +11,6 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
-<<<<<<< Updated upstream
-
-        //write your codee here
-    }
-
-=======
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String opcion;
 
@@ -89,7 +83,6 @@ public class Main {
         }
     }
 
->>>>>>> Stashed changes
     public static void actualizarTarea(String titulo, String nuevaDescripcion, String nuevaFechaVencimiento) {
         for (int i = 0; i < contador; i++) {
             if (titulos[i].equals(titulo)) {
@@ -121,12 +114,7 @@ public class Main {
                 System.out.println("Tarea '" + titulo + "' eliminada.");
                 return;
             }
-<<<<<<< Updated upstream
-
-
-=======
         }
         System.out.println("Tarea '" + titulo + "' no encontrada.");
     }
 }
->>>>>>> Stashed changes
